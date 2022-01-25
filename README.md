@@ -2,10 +2,10 @@
 This is code to reproduce our results from manuscript: "Biologically-Inspired Neuronal Adaptation Improves Learning in Neural Networks":
 http://
 
-To run CHL_clamped.py, go:
+To run CHL_clamped_adp.py, go:
 
 ```
-python CHL_clamped.py 
+python CHL_clamped_adp.py 
 ```
 *for this code, please install pytoch.
 
