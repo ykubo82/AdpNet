@@ -12,7 +12,6 @@ python CHL_clamped_adp.py
 
 *This python code will create a directory "results" to save the results (log.txt) and parameters.
 
-Currently, number of epochs is set up to 3 (execution time ~7min). You can change number of epochs to 601 (line #312) for full training. <br/>
-*if you run it for full training, it will take 21 hours to finish.<br/>
+Currently, number of epochs is set up to 101 (execution time ~38min). You can change number of epochs to 60001 (line #405) for full training. <br/>
 
-*You might get an error in line #235 if you are using sklearn version different than # 0.23.2. If you get an error, you can  comment out the line #235, but training data will not be shuffled between epochs.
+*You might get an error in line #313 if you are using sklearn version different than # 0.23.2. If you get an error, you can  comment out the line #313, but training data will not be shuffled between epochs.
