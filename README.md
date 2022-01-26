@@ -1,6 +1,5 @@
 # Biologically-Inspired Neuronal Adaptation Improves Learning in Neural Networks
-This is code to reproduce our results from manuscript: "Biologically-Inspired Neuronal Adaptation Improves Learning in Neural Networks":
-http://
+This is code to reproduce our results (782-6-10 model) from manuscript: "Biologically-Inspired Neuronal Adaptation Improves Learning in Neural Networks":
 
 To run CHL_clamped_adp.py, go:
 
