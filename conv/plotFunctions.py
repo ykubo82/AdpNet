@@ -333,6 +333,8 @@ def plot_results(what, *arg):
     if what == 'error':     
         error_train_tab = arg[0]
         error_test_tab = arg[1]
+        print('The best test error so far: ')
+        print(np.min(error_test_tab))
         epochs = len(error_train_tab)
         plt.figure(figsize=(5, 5))
         plt.plot(np.linspace(1, epochs, epochs), error_train_tab, label = 'training error')
