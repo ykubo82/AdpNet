@@ -176,7 +176,7 @@ def calculate_dynamics_no_linear_pred(input, time, delay, dt, batch_size, node_s
         if (target is not None) and (t >= time_steps):
           activations[k] = (1 - coe)*activations[k] + coe*free_phase[k]   
         
-      # adjusted accomodation for target activations
+      # adjusted accomodation for activations on the top layer
       if (target is not None) and (t >= time_steps):
         activations[-1] = (1 - coe)*activations[-1] + coe*free_phase[-1]   
         
