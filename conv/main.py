@@ -208,7 +208,7 @@ cifar10_train_dset = torchvision.datasets.CIFAR10('./cifar10_pytorch', train=Tru
 cifar10_test_dset = torchvision.datasets.CIFAR10('./cifar10_pytorch', train=False, transform=transform_test, download=True , target_transform=ReshapeTransformTarget(10))
 
 train_loader = torch.utils.data.DataLoader(cifar10_train_dset, batch_size=batch_size, shuffle=True, num_workers=0)
-test_loader = torch.utils.data.DataLoader(cifar10_test_dset, batch_size=500, shuffle=False, num_workers=0)  
+test_loader = torch.utils.data.DataLoader(cifar10_test_dset, batch_size=batch_size_test, shuffle=False, num_workers=0)  
 
 #################################################################################################################################################################################
 
